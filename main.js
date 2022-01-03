@@ -11187,7 +11187,7 @@ var $author$project$Main$runPreks = function (code) {
 			body: $elm$http$Http$jsonBody(
 				$elm$json$Json$Encode$string(code)),
 			expect: A2($elm$http$Http$expectJson, $author$project$Main$GotRes, $author$project$Main$eitherDecoder),
-			url: 'https://preksbackend.herokuapp.com/'
+			url: 'https://preksbackend.herokuapp.com/runPreks'
 		});
 };
 var $author$project$Main$update = F2(

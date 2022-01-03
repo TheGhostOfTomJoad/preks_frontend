@@ -237,7 +237,7 @@ subscriptions _ =
 runPreks : String -> Cmd Msg
 runPreks code =
     Http.post
-        { url = "https://preksbackend.herokuapp.com/"
+        { url = "https://preksbackend.herokuapp.com/runPreks"
         , expect = Http.expectJson GotRes eitherDecoder
         , body = Http.jsonBody (E.string code)
         }
