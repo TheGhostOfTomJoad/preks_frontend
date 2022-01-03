@@ -224,14 +224,24 @@ subscriptions : Model -> Sub Msg
 subscriptions _ =
     Sub.none
 
+--https://preksbackend.herokuapp.com/
+
+-- runPreks : String -> Cmd Msg
+-- runPreks code =
+--     Http.post
+--         { url = "http://localhost:3000/runPreks/"
+--         , expect = Http.expectJson GotRes eitherDecoder
+--         , body = Http.jsonBody (E.string code)
+--         }
 
 runPreks : String -> Cmd Msg
 runPreks code =
     Http.post
-        { url = "http://localhost:3000/runPreks/"
+        { url = "https://preksbackend.herokuapp.com/"
         , expect = Http.expectJson GotRes eitherDecoder
         , body = Http.jsonBody (E.string code)
         }
+
 
 
 downloadManual : Cmd msg

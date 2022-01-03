@@ -6379,7 +6379,7 @@ var $author$project$Main$runPreks = function (code) {
 			body: $elm$http$Http$jsonBody(
 				$elm$json$Json$Encode$string(code)),
 			expect: A2($elm$http$Http$expectJson, $author$project$Main$GotRes, $author$project$Main$eitherDecoder),
-			url: 'http://localhost:3000/runPreks/'
+			url: 'https://preksbackend.herokuapp.com/'
 		});
 };
 var $author$project$Main$update = F2(
