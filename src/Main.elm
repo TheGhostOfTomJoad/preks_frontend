@@ -246,7 +246,7 @@ runPreks code =
 
 downloadManual : Cmd msg
 downloadManual =
-    Download.url "https://github.com/TheGhostOfTomJoad/Preks/blob/main/Documentation/documentation.pdf" --"https://prekInterpreter.de/documentation.pdf"
+    Download.url "https://github.com/TheGhostOfTomJoad/preks_frontend/raw/main/documentation.pdf" --"https://prekInterpreter.de/documentation.pdf"
 
 eitherDecoder : D.Decoder String
 eitherDecoder =
