@@ -1,6 +1,6 @@
 # Frontend
 
-The code isinspired by this repo:
+The code is inspired by this repo:
  https://github.com/tommyengstrom/codemirror-elm
 
 ## Try it
