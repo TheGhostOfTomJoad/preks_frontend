@@ -1,7 +1,11 @@
-# Frontend
+# Parser und Interpreter für primitiv rekursive Funktionen mit GADTs in Haskell
 
-The code is inspired by this repo:
- https://github.com/tommyengstrom/codemirror-elm
+
+
+In diesem Repository befindet sich der Code für das Frontend meines Masterprojekt.
+Hierfür wurde der Code aus diesem Repository entsprechend angepasst:
+
+https://github.com/tommyengstrom/codemirror-elm
 
 ## Try it
 
